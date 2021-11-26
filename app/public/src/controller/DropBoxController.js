@@ -608,7 +608,7 @@ class DropBoxController {
 
     })
 
-    li.addEventListener("click", e => {
+    li.addEventListener("click", ees => {
       if (e.shiftKey) {
         let firstLi = this.listFilesEl.querySelector(".selected");
 
